@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dave's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate and skilled web developer with a strong background in creating dynamic, responsive, and user-friendly websites. With experience in a variety of web technologies, I excel at transforming client requirements into visually appealing and highly functional digital solutions. 
+            <br>I thrive on continuous learning and keeping up-to-date with the latest industry trends to deliver cutting-edge projects. My expertise includes HTML, CSS, JavaScript, and various frameworks, ensuring that each project I work on is crafted with precision and innovation. Let's build something great together!</p>
+            <a href="#contact">Contact</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="photos/project 1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/project 2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="form label">
+                <h2>Contact Me</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="apikey" value="44adc944-387c-4818-9dba-450aa405dfa9">
+                
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <textarea name="message" required></textarea>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>   
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
